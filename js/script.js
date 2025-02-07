@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return true;
   }
   document.addEventListener(SAVED_EVENT, function () {
-    console.log(localStorage.getItem(STORAGE_KEY));
+    alert("Data berhasil disimpan");
   });
   function loadDataFromStorage() {
     const serializedData = localStorage.getItem(STORAGE_KEY);
